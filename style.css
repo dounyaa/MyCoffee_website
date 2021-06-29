@@ -1,0 +1,440 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+h1 a
+{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/background.png");
+    background-size: cover;
+
+}
+
+.nav_bar {
+    display: flex;
+    background: #4e2c2c;
+}
+
+.logo {
+    width: 65%;
+    height: 100px;
+
+}
+
+
+.logo h1{
+    line-height: 100px;
+    padding-left: 50px;
+    color: blanchedalmond;
+}
+
+.menu_bar{
+    width: 35%;
+    height: 100px;
+}
+
+.menu_bar ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 53px;
+    list-style-type: none
+}
+
+.menu_bar a{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.intro{
+    width: 55%;
+    color: #fff8db;
+    height: 300px;
+    padding-top: 30px;
+    margin-left: 107px;
+}
+
+.intro h1{
+    font-size: 3.8rem;
+}
+
+.intro p{
+    margin: 30px 0;
+    font-size: larger;
+    font-weight: 500;
+}
+
+button{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 11px 28px;
+    color: #4e2c2c;
+    border: none;
+    background: #fff8db;
+}
+
+button:hover {
+    background: linear-gradient(50deg, #fff8db, #4e2c2c);
+    color: #fff8db;
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.categorie_item p{
+    font-family: "Montserrat";
+    color: #4e2c2c;
+    font-weight: 500;
+}
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+.delivery-icon {
+    font-size: 50px;
+    color: #4e2c2c;
+}
+.section-title{
+    line-height: 100px;
+    padding-left: 440px;
+    color: #4e2c2c;
+    margin: 30px 0;
+    font-size: larger;
+    font-size: 3rem;
+}
+.best-coffee{
+    display: flex;
+}
+
+.categorie{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.categorie_item {
+    display: flex;
+    flex-direction: column;
+}
+.categorie_details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+.about_coffee{
+    display: flex;
+}
+
+.container_about{
+    background-image: url("images/v656-ning-03-coffeeday_1_2.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.information{
+    color: #844007;
+    height: 300px;
+    padding-top: 30px;
+    margin-left: 107px;
+}
+
+.section-title {
+    
+    padding-left: 550px;
+    color: #4e2c2c;
+    margin: 30px 0;
+    
+    font-size: 3rem;
+}
+
+
+.section_details{
+    font-weight: 500;
+    position: relative;
+    left: 50%;
+    width: 40%;
+    top: 15%;
+    font-size: 140%;
+
+}
+
+.categorie_item button 
+{
+    background: #4e2c2c;
+    color: white;
+}
+
+.categorie_item button:hover
+{
+    background: white;
+    color: #4e2c2c;
+    border: 1px solid #4e2c2c;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: #fdf0e7;
+    padding: 15px;
+}
+
+footer .contacts .desc {
+    color: #4e2c2c;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+footer .contacts .desc h3{
+    font-size: 18px;
+}
+
+footer .contacts .desc p{
+    font-size: 14px;
+}
+
+footer .socialMedia a {
+    color: #4e2c2c;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 10px;
+}
+
+footer .map img {
+    width: 350px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+
+.search input {
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+}
+
+.nav_bar .search {
+    color: blanchedalmond;
+}
+
+header .search {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+.Content {
+    display: flex;
+}
+.Content .categories a {
+
+    text-decoration: none;
+}
+.Content .filtres {
+    background: blanchedalmond;
+    padding: 11px;
+    flex: 1;
+}
+
+.Content .filtres .categories {
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.Content .filtres .categories a{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #4e2c2c;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    border-bottom: 1px solid #d2bba8;
+}
+
+.Content h3{
+    margin-bottom: 15px;
+}
+
+
+.Content .filtres .select select{
+    border: 0px;
+    border-radius: 20px;
+    height: 35px;
+}
+.Content .filtres .select{
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.Content .filtres .filtre{
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.Content .filtres .filtre input{
+    width: 60px;
+    border: 0px;
+    border-radius: 20px;
+    height: 23px;
+    text-align: right;
+}
+
+.Content .filtres .filtre button{
+    margin: 15px;
+    background: #4e2c2c;
+    margin-top: 30px;
+    color: blanchedalmond;
+}
+.Content .filtres .filtre button:hover{
+    background: blanchedalmond;
+    color: #4e2c2c;
+    border: 1px solid #4e2c2c;
+}
+
+.Content .products {
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.Content .products .product {
+    height: 300px;
+}
+
+.Content .products .product img{
+    width: 70%;
+}
+.Content .products .product p{
+    font-family: 'Montserrat';
+    font-size: medium;
+    font-weight: 500;
+}
+.Content .products .product{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.Content .products .product .product_container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.Content .products .product .product_details{
+    position: absolute;
+    height: 100%;
+}
+.Content .products .product .view_product{
+    display: none;
+    position: absolute;
+    background: #8440071a;
+    width: 100%;
+    height: 100%;
+}
+.Content .products .product .view_product button{
+    bottom: 40%;
+    position: absolute;
+    right: 25%;
+}
+.product_Content{
+    display: flex;
+    padding: 60px;
+}
+
+.product_Content .product_details div{
+    padding-bottom: 20px;
+}
+
+.product_Content .product_details p{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: larger;
+}
+.product_Content .product_details .title{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: x-large;
+}
+.product_Content .product_details .size{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.product_Content .product_details .description{
+    line-height: 30px;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.product_Content .product_details .button{
+    text-align: center;
+}
+
+.product_Content .product_details .button button{
+    height: 50px;
+    border: 1px solid #4e2c2c;
+    background: #fdf0e7;
+}
+
+.commentaires h4{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: x-large;
+    margin-left: 5px;
+}
+.commentaires .commentaire{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #c7bdbd;
+}
+
+.commentaires .commentaire .commentaire_info{
+    line-height: 25px;
+}
+
+.commentaires .commentaire .commentaire_details{
+    margin-left: 40px;
+    color: yellow;
+    line-height: 30px;
+}
+
+.commentaires .commentaire .commentaire_details p{
+    color: black;
+}
